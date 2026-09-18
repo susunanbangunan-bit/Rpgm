@@ -1,0 +1,6 @@
+{
+  "name": "RPGM Player",
+  "description": "Multi-engine Android game player/emulator for RPG Maker MV/MZ and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

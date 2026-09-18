@@ -25,7 +25,10 @@ jobs:
           java-version: '17'
 
       - name: Install Node Modules
-        run: npm install
+        run: |
+           node --version
+           npm -- version
+           npm install -- legacy-peer-deps
 
       - name: Build Web App
         run: npm run build
